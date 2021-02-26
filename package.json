@@ -1,0 +1,37 @@
+{
+  "name": "this-is-it",
+  "title": "ЭТОВОТЭТО",
+  "description": "Игра в придумывание слов и их значений",
+  "author": "DeFUCC <davay@etovoteto.ru> (https://defucc.me/)",
+  "license": "MIT",
+  "homepage": "https://app.etovoteto.ru",
+  "bugs": {
+    "url": "https://github.com/DeFUCC/app.etovoteto.ru",
+    "email": "davay@etovoteto.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeFUCC/app.etovoteto.ru"
+  },
+  "version": "0.3.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview --port=5005"
+  },
+  "dependencies": {
+    "vue": "^3.0.6",
+    "vue-router": "^4.0.4"
+  },
+  "devDependencies": {
+    "@prettier/plugin-pug": "^1.13.4",
+    "@rollup/plugin-alias": "^3.1.2",
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.6",
+    "pug": "^3.0.0",
+    "stylus": "^0.54.8",
+    "vite": "^2.0.3",
+    "vite-plugin-components": "0.6.12",
+    "vite-plugin-windicss": "^0.5.3"
+  }
+}
